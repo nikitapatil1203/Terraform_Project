@@ -42,7 +42,6 @@ resource "aws_route_table_association" "RT_Subnet2" {
 }
 
 
-
 resource "aws_security_group" "SG" {
   name   = "web-server-sg"
   vpc_id = aws_vpc.my_vpc.id
